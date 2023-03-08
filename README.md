@@ -10,11 +10,11 @@ Solução ótima encontrada: [4, 7, 5, 3, 1, 6, 8, 2]
 - Número de gerações: 40
 - Número de indivíduos: 10
 - Participantes do torneio: 4
-- Proababilidade de mutação: valor dinânico baseado na diversidade dos -indivíduos.
+- Proababilidade de mutação: valor dinâmico baseado na diversidade dos indivíduos.
 - Elitistmo: 2
 
 ## Como executar o algorítmo:
-Foi criado um jupyter notebook chamado [eight_queens.ipynb](/eight_queens.ipynb). Neste arquivo se encontram as funções alteradas utilizadas para chegar na solução ótima.
+Foi criado um jupyter notebook chamado [eight_queens.ipynb](/eight_queens.ipynb). Neste arquivo se encontram as funções utilizadas para chegar na solução ótima.
  
 ## Valores iniciais de theta_0 e theta_1
 - theta_0=-3.0
@@ -23,7 +23,7 @@ Foi criado um jupyter notebook chamado [eight_queens.ipynb](/eight_queens.ipynb)
 ## Extras implementados
 Foi criado um novo notebook ([eight_queens.pdf](/eight_queens.pdf))
  para o problema das rainhas, onde foram realizadas as seguintes adições:
-- Crossover point: passa a ser aleatório
+- Crossover point passa a ser aleatório
 - Adição da medida de diversidade ao gráfico.
 - Mutation rate dinâmico: o mutation rate passa a inversamente proporcional a diversidade da população atual.
 
